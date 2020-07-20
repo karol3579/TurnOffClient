@@ -1,0 +1,78 @@
+
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    
+    android:layout_height="match_parent">
+    
+
+
+    <EditText
+        android:layout_x="110dp"
+        android:layout_y="80dp"
+        android:layout_width="170dp"
+        android:layout_height="65.0dp"
+        android:id="@+id/ipField"
+        android:layout_marginRight="0.0dp" />
+
+     <EditText
+        android:inputType="number"
+        android:layout_x="110dp"
+        android:layout_y="150dp"
+        android:layout_width="80dp"
+        android:layout_height="65.0dp"
+        android:id="@+id/portField"
+        android:layout_marginRight="0.0dp" />
+
+    <TextView
+        android:layout_x="80dp"
+        android:layout_y="110dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:text="ip :"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView1" />
+    <TextView
+        android:layout_x="60dp"
+        android:layout_y="180dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:text="port :"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:layout_x="150dp"
+        android:layout_y="320dp"
+        android:text="Turn Off"
+        android:layout_width="145.0dp"
+        android:layout_height="51.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/turnOffButton" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="100.0dp"
+        android:layout_height="41.0dp"
+        android:layout_x="270dp"
+        android:layout_y="228dp"
+        android:id="@+id/saveButton" />
+
+    
+
+   
+   
+
+
+
+
+
+</AbsoluteLayout>
+
