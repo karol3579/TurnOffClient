@@ -1,5 +1,5 @@
 # TurnOffClient
-Client used to turn off pc in local network.Includes storing ip and port in txt file  option.
+Client used to turn off pc in local network.Includes saving ip and port to txt file option.
 
 Code of server : https://github.com/karol3579/TurnOffServer
 
